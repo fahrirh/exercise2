@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="kalkulator" class="container" style="margin:10%;border: 2px solid grey;border-radius: 5px; padding: 10px; width: 55%">
+    <h5 style="margin-bottom:3%;" align="center">Kalkulator - Chapter 2 Exercise 2</h5>
+        <form>
+            Bilangan A: <input type="number" id="numA" value="">
+            Bilangan A: <input type="number" id="numB" value="">
+            <select id="operasi"></p>
+                <option value="tambah"> + (tambah)</option>
+                <option value="kurang"> - (kurang)</option>
+                <option value="kali"> * (kali)</option>
+                <option value="bagi"> / (bagi)</option>
+            </select>
+            <button onclick="perhitungan()" id="btnClick">Tampilkan</button>
+        </form>
+    </div>
+
+</body>
+<script type="text/javascript" src="kalk.js"></script>
+</html>
